@@ -6,8 +6,6 @@ Features
 =================
 * Add tasks
 * Delete tasks
-* Mark tasks as completed
-* Local storage support
 
 Technologies Used
 =================
