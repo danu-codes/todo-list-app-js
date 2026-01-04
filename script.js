@@ -7,7 +7,6 @@ const titleOfList = document.getElementById("listTitle")
 const descriptionOfList = document.getElementById("descriptionBox")
 const todoCard = document.querySelector(".todoCard")
 const todo = document.querySelector(".todo");
-//const removeList = document.querySelector(".removeList")
 
 addBtn.addEventListener("click", function () {
     insertList.style.display = "flex"
@@ -57,4 +56,5 @@ insertList.style.display = "none";
     descriptionOfList.value = "";
 
 })
+
 
