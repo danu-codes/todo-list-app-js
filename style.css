@@ -54,7 +54,7 @@ body {
     transform: scale(1.01);
 }
 
-.todoCard .removeList {
+.removeList {
     padding: 12px;
     bottom: 30px;
     right: 30px;
@@ -63,10 +63,12 @@ body {
     border: none;
     background-color: red;
     color: white;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
 }
 
-.todoCard .removeList:hover {
-    opacity: 0.8;
+.removeList:hover{
+    transform: scale(1.10);
 }
 
 .addButton {
@@ -182,11 +184,3 @@ body {
     padding: 20px;
 }
 
-.removeList{
-    border-radius: 10px;
-    transition: all 0.2s ease-in-out;
-}
-
-.removeList:hover{
-    transform: scale(1.10);
-}
